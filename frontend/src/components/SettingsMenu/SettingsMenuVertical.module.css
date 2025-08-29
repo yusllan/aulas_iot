@@ -1,0 +1,22 @@
+.verticalMenu {
+  width: 240px;
+  background-color: #0b0331;
+  padding: 1rem;
+  height: 50%;
+  border: 1px solid #358cdd;
+  border-radius: 20px;
+}
+
+.verticalMenu .MuiListItemButton-root {
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.verticalMenu .MuiListItemButton-root.Mui-selected {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.verticalMenu .MuiListItemIcon-root {
+  min-width: 40px;
+}

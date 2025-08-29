@@ -1,0 +1,60 @@
+.sidebar {
+  width: 250px;
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  background-color: var(--navbar-bg);
+  color: var(--text-color);
+  border-right: 1px solid var(--border-color, #e2e8f0);
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.menuItem:hover {
+  background-color: var(--hover-bg);
+  color: var(--hover-text);
+}
+
+/*Para el logo con su nombre*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}

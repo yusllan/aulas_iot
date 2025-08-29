@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.dark {
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+.navbar.light {
+  background-color: #ffffff;
+  color: #2d3748;
+  border: 1px solid #e2e8f0;
+}
+
+.navbar button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.navbar .darkButton {
+  background-color: #fca311;
+  color: #121212;
+}
+
+.navbar .lightButton {
+  background-color: #2d3748;
+  color: #fff;
+}
+
+.navbar button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,35 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --card-bg: #ffffff;
+  --navbar-bg: #ffffff;
+  --navbar-text: #2d3748;
+  --button-bg: #2d3748;
+  --button-text: #ffffff;
+  --border-color: #e2e8f0;
+  --hover-bg: #f7fafc;
+  --hover-text: #2b6cb0;
+}
+
+.dark-theme {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --card-bg: #1e1e2f;
+  --navbar-bg: #1e1e2f;
+  --navbar-text: #ffffff;
+  --button-bg: #fca311;
+  --button-text: #121212;
+  --border-color: #3a3a5c;
+  --hover-bg: #3a3a5c;
+  --hover-text: #fca311;
+}
+
+.light-theme {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --card-bg: #ffffff;
+  --navbar-bg: #ffffff;
+  --navbar-text: #2d3748;
+  --button-bg: #2d3748;
+  --button-text: #ffffff;
+}

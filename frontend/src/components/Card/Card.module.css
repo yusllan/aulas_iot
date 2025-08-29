@@ -1,0 +1,34 @@
+.card {
+  padding: 25px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card.dark {
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+.card.light {
+  background-color: #ffffff;
+  color: #2d3748;
+  border: 1px solid #e2e8f0;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.card p {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}

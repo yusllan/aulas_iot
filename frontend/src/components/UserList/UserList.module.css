@@ -1,0 +1,28 @@
+/* src/components/UserList/UserList.module.css */
+.tableContainer {
+  margin-top: 2rem;
+  width: auto;
+  display: inline-block;
+  background-color: #1a237e;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  min-height: 150px;
+}
+
+.tableHeaderCell {
+  color: #15258d !important;
+  font-weight: bold !important;
+}
+
+.tableBodyCell {
+  color: #b11919 !important;
+}
