@@ -1,0 +1,26 @@
+# Compilados
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+*.d
+*.a
+
+# Archivos de configuración local
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.db-wal
+*.db-shm
+
+# Archivos temporales Arduino
+*.ino.local
+*.cpp.local
+
+# Datos sensibles
+DATA.h
+data.h
+.env
